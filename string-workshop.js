@@ -7,8 +7,9 @@
 // output: "username007xza"
 
 // your code here:
-let x = "username007xza";
-console.log(x);
+let x = " username007xza";
+let trim = x.trim(); // trim blank space
+console.log(trim);
 
 //------------------------------------//
 
