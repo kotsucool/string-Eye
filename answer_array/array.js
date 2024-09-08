@@ -8,6 +8,11 @@
 
 // your code here:
 
+const friendArr = ["John","Mick","Donald","Farn","Lucus","Weiwei"];
+console.log(friendArr.length);
+
+//-----------------------------------------------------------------------------//
+
 // ex.2 (need to research by your self)
 // input: const carArr = ["Benz","Porsche","Toyota","Ferrari","Lotus","Ford"]
 // requirement: Write code to remove First element in array and add "Nissan" to last element of array
@@ -15,8 +20,13 @@
 // output: ["Benz","Porsche","Toyota","Ferrari","Lotus","Nissan"]
 
 // your code here:
+
 const carArr = ["Benz", "Porsche", "Toyota", "Ferrari", "Lotus", "Ford"];
-console.log(carArr.sort());
+carArr[5] = "Nissan";
+console.log(carArr);
+
+//-------------------------------------------------------------------------------//
+
 // ex.3 (need to research by your self)
 // input: const carArr = ["Benz","Porsche","Toyota","Ferrari","Lotus","Ford"]
 // requirement: sort carArr by alphabet (ทำให้ array เรียกลำดับตามตัว alphabet)
@@ -24,3 +34,6 @@ console.log(carArr.sort());
 // output: [ 'Benz', 'Ferrari', 'Ford', 'Lotus', 'Porsche', 'Toyota' ]
 
 // your code here:
+
+carArr[5] = "Ford";
+console.log(carArr.sort());
