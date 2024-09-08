@@ -18,6 +18,8 @@ nameArr.push("lisa");
 nameArr.splice(4);
 console.log(nameArr);
 
+//--------------------------------------------------------------//
+
 //exercise 2
 
 // const userIdArr = [
