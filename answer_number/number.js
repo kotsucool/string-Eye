@@ -42,6 +42,7 @@ console.log(numC - numD);
 
 let userDeltaRange = 2.3456
 let factorX = 5
-console.log((userDeltaRange.toFixed(2) * factorX).toFixed(1));
+console.log((userDeltaRange).toFixed(2));
+console.log((userDeltaRange* factorX).toFixed(1));
 
 // ปล. ทำให้เป็น 11.7 ไม่ได้ ยอมแพ้
